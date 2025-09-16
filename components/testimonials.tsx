@@ -7,57 +7,51 @@ import React, { ComponentProps } from "react";
 const testimonials = [
   {
     id: 1,
-    name: "John Doe",
-    designation: "Software Engineer",
-    company: "TechCorp",
+    name: "César Manuel Chapilliquen Pedrera",
+    designation: "Padre de familia",
     testimonial:
-      "This product has completely transformed the way we work. The efficiency and ease of use are unmatched!",
-    avatar: "https://randomuser.me/api/portraits/men/1.jpg",
+      "La institución Ann Goulden brinda un ambiente seguro y estimulante. Estoy muy satisfecho con el progreso de mi hijo.",
+    avatar: "https://randomuser.me/api/portraits/men/10.jpg",
   },
   {
     id: 2,
-    name: "Sophia Lee",
-    designation: "Data Analyst",
-    company: "InsightTech",
+    name: "Katherin Nicol Fuentes Colán",
+    designation: "Madre de familia",
     testimonial:
-      "This tool has saved me hours of work! The analytics and reporting features are incredibly powerful.",
-    avatar: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Excelente trato de los docentes, comprometidos con el aprendizaje y la formación integral de los niños.",
+    avatar: "https://randomuser.me/api/portraits/women/11.jpg",
   },
   {
     id: 3,
-    name: "Michael Johnson",
-    designation: "UX Designer",
-    company: "DesignPro",
+    name: "Edwin Jair Gonzales Gutierrez",
+    designation: "Exalumno",
     testimonial:
-      "An amazing tool that simplifies complex tasks. Highly recommended for professionals in the industry.",
-    avatar: "https://randomuser.me/api/portraits/men/3.jpg",
+      "Gracias a la educación recibida en Ann Goulden, desarrollé una base sólida que me ayuda hasta hoy.",
+    avatar: "https://randomuser.me/api/portraits/men/12.jpg",
   },
   {
     id: 4,
-    name: "Emily Davis",
-    designation: "Marketing Specialist",
-    company: "BrandBoost",
+    name: "Diego Daniel Pacherrez Jara",
+    designation: "Padre de familia",
     testimonial:
-      "I've seen a significant improvement in our team's productivity since we started using this service.",
-    avatar: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Los valores que se inculcan en la institución son un pilar fundamental para la formación de nuestros hijos.",
+    avatar: "https://randomuser.me/api/portraits/men/13.jpg",
   },
   {
     id: 5,
-    name: "Daniel Martinez",
-    designation: "Full-Stack Developer",
-    company: "CodeCrafters",
+    name: "Luis Francisco La Rosa Perez",
+    designation: "Docente",
     testimonial:
-      "The best investment we've made! The support team is also super responsive and helpful.",
-    avatar: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Me siento orgulloso de pertenecer a esta institución y aportar al crecimiento de los estudiantes.",
+    avatar: "https://randomuser.me/api/portraits/men/14.jpg",
   },
   {
     id: 6,
-    name: "Jane Smith",
-    designation: "Product Manager",
-    company: "InnovateX",
+    name: "Deny Alexander Esquerre Panta",
+    designation: "Exalumno",
     testimonial:
-      "The user experience is top-notch! The interface is clean, intuitive, and easy to navigate.",
-    avatar: "https://randomuser.me/api/portraits/women/2.jpg",
+      "Una experiencia educativa inolvidable. Aquí aprendí no solo conocimientos, sino también valores para la vida.",
+    avatar: "https://randomuser.me/api/portraits/men/15.jpg",
   },
 ];
 
@@ -65,7 +59,7 @@ const Testimonials = () => (
   <div id="testimonials" className="flex justify-center items-center py-20">
     <div className="h-full w-full">
       <h2 className="mb-12 text-4xl md:text-5xl font-bold text-center tracking-tight px-6">
-        Testimonials
+        Testimonios
       </h2>
       <div className="relative">
         <div className="z-10 absolute left-0 inset-y-0 w-[15%] bg-gradient-to-r from-background to-transparent" />

@@ -16,9 +16,9 @@ const Hero = () => {
             Customized Shadcn UI Blocks & Components
           </h1>
           <p className="mt-6 max-w-[60ch] xs:text-lg">
-            Explore a collection of Shadcn UI blocks and components, ready to
-            preview and copy. Streamline your development workflow with
-            easy-to-implement examples.
+            Descubre una propuesta educativa innovadora que combina excelencia 
+            académica, formación en valores y un ambiente que inspira a cada 
+            estudiante a alcanzar su máximo potencial.
           </p>
           <div className="mt-12 flex flex-col sm:flex-row items-center sm:justify-center gap-4">
             <Button

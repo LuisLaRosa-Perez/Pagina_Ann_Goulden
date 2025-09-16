@@ -11,39 +11,39 @@ import React from "react";
 const features = [
   {
     icon: Settings2,
-    title: "Customizable Layouts",
+    title: "Diseños personalizables",
     description:
-      "Design your space with drag-and-drop simplicity—create grids, lists, or galleries in seconds.",
+      "Diseña tu espacio con la simplicidad de arrastrar y soltar: crea cuadrículas, listas o galerías en segundos.",
   },
   {
     icon: Blocks,
-    title: "Interactive Widgets",
+    title: "Widgets interactivos",
     description:
-      "Embed polls, quizzes, or forms to keep your audience engaged.",
+      "Incrusta encuestas, cuestionarios o formularios para mantener a tu audiencia enganchada.",
   },
   {
     icon: Bot,
-    title: "AI-Powered Tools",
+    title: "Herramientas basadas en IA",
     description:
-      "Generate summaries, auto-format content, or translate into multiple languages seamlessly.",
+      "Genera resúmenes, formatea automáticamente el contenido o traduce a varios idiomas sin problemas.",
   },
   {
     icon: Film,
-    title: "Media Integrations",
+    title: "Integraciones multimedia",
     description:
-      "Connect with Spotify, Instagram, or your own media library for dynamic visuals and sound.",
+      "Conéctate con Spotify, Instagram o tu propia biblioteca multimedia para obtener imágenes y sonidos dinámicos.",
   },
   {
     icon: ChartPie,
-    title: "Advanced Analytics",
+    title: "Análisis avanzado",
     description:
-      "Track engagement, clicks, and user activity with intuitive charts and reports.",
+      "Realiza un seguimiento de la participación, los clics y la actividad de los usuarios con gráficos e informes intuitivos.",
   },
   {
     icon: MessageCircle,
-    title: "Seamless Collaboration",
+    title: "Colaboración sin fisuras",
     description:
-      "Comment, tag, and assign tasks directly within your documents.",
+      "Comenta, etiqueta y asigna tareas directamente en tus documentos.",
   },
 ];
 
@@ -51,7 +51,7 @@ const Features = () => {
   return (
     <div id="features" className="w-full py-12 xs:py-20 px-6">
       <h2 className="text-3xl xs:text-4xl sm:text-5xl font-bold tracking-tight text-center">
-        Unleash Your Creativity
+        Da rienda suelta a tu creatividad
       </h2>
       <div className="w-full max-w-screen-lg mx-auto mt-10 sm:mt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {features.map((feature) => (

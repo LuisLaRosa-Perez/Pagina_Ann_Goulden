@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 export default function CTABanner() {
   return (
     <div className="px-6">
-      <div className="dark:border relative overflow-hidden my-20 w-full dark bg-background text-foreground max-w-screen-lg mx-auto rounded-2xl py-10 md:py-16 px-6 md:px-14">
+      <div className="dark:border relative overflow-hidden my-20 w-full bg-background text-foreground max-w-screen-lg mx-auto rounded-2xl py-10 md:py-16 px-6 md:px-14">
         <AnimatedGridPattern
           numSquares={30}
           maxOpacity={0.1}
@@ -25,21 +25,25 @@ export default function CTABanner() {
             "inset-x-0 inset-y-0 h-[200%] skew-y-12"
           )}
         />
-        <div className="relative z-0 flex flex-col gap-3">
+
+        {/* Contenido CTA */}
+        <div className="relative z-0 flex flex-col gap-3 text-center">
           <h3 className="text-3xl md:text-4xl font-semibold">
-            Ready to Elevate Your Experience?
+            ¿Listo para transformar el futuro de tus hijos?
           </h3>
-          <p className="mt-2 text-base md:text-lg">
-            Take your workflow to the next level with Shadcn UI Blocks. Sign up
-            today and start exploring!
+          <p className="mt-2 text-base md:text-lg max-w-2xl mx-auto">
+            Bríndales una educación de calidad en un entorno seguro,
+            inclusivo y estimulante.
           </p>
         </div>
-        <div className="relative z-0 mt-14 flex flex-col sm:flex-row gap-4">
+
+        {/* Botones CTA */}
+        <div className="relative z-0 mt-10 flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg">
-            Get Started <ArrowUpRight className="!h-5 !w-5" />
+            Inscríbete Ahora <ArrowUpRight className="!h-5 !w-5" />
           </Button>
           <Button size="lg" variant="outline">
-            Discover More <Forward className="!h-5 !w-5" />
+            Conoce Más <Forward className="!h-5 !w-5" />
           </Button>
         </div>
       </div>
