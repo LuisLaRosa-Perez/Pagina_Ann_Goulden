@@ -1,6 +1,6 @@
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
-import Image from "next/image";
+
 import { Logo } from "@/components/navbar/logo"; // Import the Logo component
 
 const footerLinks = [
