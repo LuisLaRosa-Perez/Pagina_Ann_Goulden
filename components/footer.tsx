@@ -1,23 +1,13 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
-import {
-  DribbbleIcon,
-  GithubIcon,
-  TwitchIcon,
-  TwitterIcon,
-  
-} from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-
+import { Logo } from "@/components/navbar/logo"; // Import the Logo component
 
 const footerLinks = [
   {
     title: "Características",
     href: "#features",
   },
-  
   {
     title: "Preguntas Frecuentes",
     href: "#faq",
@@ -26,7 +16,6 @@ const footerLinks = [
     title: "Testimonios",
     href: "#testimonials",
   },
-  
 ];
 
 const Footer = () => {
@@ -35,18 +24,7 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto">
         <div className="py-12 flex flex-col sm:flex-row items-start justify-between gap-x-8 gap-y-10 px-6 xl:px-0">
           <div>
-            {/* Logo + Nombre */}
-        <div className="flex items-center gap-3">
-          <Image
-            src="/logo_colegio.png"
-            alt="Logo I.E Ann Goulden"
-            width={40}
-            height={40}
-            className="rounded"
-          />
-          <span className="font-semibold text-lg">I.E Ann Goulden</span>
-        </div>
-
+            <Logo /> {/* Use the Logo component here */}
 
             <ul className="mt-6 flex items-center gap-4 flex-wrap">
               {footerLinks.map(({ title, href }) => (
@@ -62,8 +40,8 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Subscribe Newsletter */}
-          
+          {/* Removed Subscribe Newsletter section */}
+
         </div>
         <Separator />
         <div className="py-8 flex flex-col-reverse sm:flex-row items-center justify-between gap-x-2 gap-y-5 px-6 xl:px-0">
@@ -73,7 +51,7 @@ const Footer = () => {
             <Link href="/" target="_blank">
               I.E Ann Goulden
             </Link>
-            
+            . Todos los derechos reservados.
           </span>
 
            <div className="flex items-center gap-5 text-muted-foreground">

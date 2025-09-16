@@ -7,6 +7,7 @@ import {
   Users,
   Zap,
 } from "lucide-react";
+import Image from "next/image"; // Import Image
 
 const features = [
   {
@@ -79,14 +80,16 @@ const Features05Page = () => {
                 </p>
               </CardHeader>
               <CardContent className="mt-auto px-0 pb-0">
-  <div className="pl-6"> {/* agrega padding a la izquierda */}
-    <img
-      src={feature.image}
-      alt={feature.title}
-      className="w-full h-40 object-cover rounded-tl-xl"
-    />
-  </div>
-</CardContent>
+                <div className="pl-6"> {/* agrega padding a la izquierda */}
+                  <Image
+                    src={feature.image}
+                    alt={feature.title}
+                    width={500} // Add appropriate width
+                    height={300} // Add appropriate height
+                    className="w-full h-40 object-cover rounded-tl-xl"
+                  />
+                </div>
+              </CardContent>
             </Card>
           ))}
         </div>
